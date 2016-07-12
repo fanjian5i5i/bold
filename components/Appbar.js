@@ -11,6 +11,7 @@ import Paper from 'material-ui/Paper';
 import FontIcon from 'material-ui/FontIcon';
 import SearchIcon from 'material-ui/svg-icons/action/search';
 import {grey500} from 'material-ui/styles/colors';
+
 injectTapEventPlugin();
 const style = {
     margin: 10,
@@ -26,15 +27,25 @@ const rowStyle = {
   marginRight: 0
 }
 
+const searchStyle = {
+    position: "relative",
+    marginTop: 25,
+    top: -25,
+    WwebkitBoxFlex: 1,
+    flex: "1 1 auto",
+    order: 2,
+    outline: "none",
+    border: "none",
+    padding: 13,
+    borderRadius: 2,
+}
+
 const AppBarSearch = () => (
   <AppBar
+    zDepth={1}
     title={
       <Paper style={style} zDepth={1} >
-        <div className="row" style={rowStyle} >
-          <SearchIcon className="col-lg-3 col-md-3" color={grey500} style={iconStyles}/>
-          <input className="col-lg-9 col-md-9 search-bar" type="text" placeholder="Search"/>
-
-        </div>
+          <input type="text" placeholder="Search" style={searchStyle}/>
       </Paper>
     }
     iconElementLeft={<SideBar/>}
