@@ -47,7 +47,9 @@ const AppBarSearch = () => (
       <Paper style={style} zDepth={1} >
           <input type="text" placeholder="Search" style={searchStyle}/>
       </Paper>
+
     }
+    style={{"backgroundColor":"#f25520"}}
     iconElementLeft={<SideBar/>}
     iconElementRight={
       <IconMenu

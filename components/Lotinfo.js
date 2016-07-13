@@ -8,8 +8,8 @@ import SelectField from 'material-ui/SelectField';
 import Subheader from 'material-ui/Subheader';
 const styles = {
   display: 'inline-block',
-  float: 'left',
-  margin: '16px 32px 16px 0',
+  float: 'right',
+  margin: '16px 0px 16px 0px ',
 };
 
 const dropStyles = {
@@ -22,7 +22,7 @@ const hoverStyle = {
   color:"rgba(0, 0, 0, 0.298039) !important"
 };
 const headerStyle={
-  background:"rgb(0, 188, 212)",
+  background:"#f25520",
   color:"white"
 };
 export default class Detail2 extends React.Component {
@@ -43,7 +43,7 @@ export default class Detail2 extends React.Component {
             <MenuItem primaryText="Historical Issues" secondaryText="Landmark Area" />
             <MenuItem primaryText="Environmental Issues" secondaryText="Marine Life" />
             <MenuItem primaryText="Responsible BRA Division" secondaryText="Asset Management" />
-            <MenuItem primaryText="Staff" secondaryText="Fran Collins" />
+            <MenuItem primaryText="Staff" secondaryText={<a href="#">Fran Collins</a>} />
             <MenuItem primaryText="Lot Size" secondaryText="158,461 sq ft" />
             <MenuItem primaryText="Land Value" secondaryText="$1,584,600.00" />
             <MenuItem primaryText="Total Value" secondaryText="$1,584,600.00" />

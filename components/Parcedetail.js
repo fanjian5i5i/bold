@@ -12,14 +12,17 @@ const styles = {
   margin: '16px 32px 16px 0',
 };
 const headerStyle={
-  background:"rgb(0, 188, 212)",
+  background:"#f25520",
   color:"white"
 };
+const menuStyle = {
+  height:368
+}
 
 const ParceDetail = () => (
   <Paper style={styles}>
   <Subheader style={headerStyle}>Parcel Information</Subheader>
-    <Menu desktop={true} width={700}>
+    <Menu desktop={true} width={650} style={menuStyle}>
         <MenuItem primaryText="Parcel ID" secondaryText="0203505600" />
         <MenuItem primaryText="Address" secondaryText="EIGHTH ST" />
         <MenuItem primaryText="Zip Code" secondaryText="02129" />
