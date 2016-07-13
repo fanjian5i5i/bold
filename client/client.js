@@ -51,8 +51,13 @@ const App = () => (
   </MuiThemeProvider>
   <MuiThemeProvider>
     <div className="row">
-      <div className="col-lg-8 col-md-8 col-sm-12"><Paper style={style1} zDepth={1} ><ParcelInfo /></Paper></div>
-      <div className="col-lg-4 col-md-4 col-sm-12"><Paper style={style2} zDepth={1} ><GridListExampleSimple/><Paper style={style3}><img src="http://www.digmap.com/wp/wp-content/uploads/2015/07/parcel-lines.png"/></Paper></Paper></div>
+      <div className="col-lg-9 col-md-9 col-sm-12"><Paper style={style1} zDepth={1} ><ParcelInfo /></Paper></div>
+      <div className="col-lg-3 col-md-3 col-sm-12">
+        <Paper style={style2} zDepth={1} >
+          <GridListExampleSimple/>
+          <SampleMap/>
+        </Paper>
+      </div>
     </div>
   </MuiThemeProvider>
   </div>
