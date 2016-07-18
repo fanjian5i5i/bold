@@ -8,7 +8,7 @@ import SelectField from 'material-ui/SelectField';
 import Subheader from 'material-ui/Subheader';
 const styles = {
   display: 'inline-block',
-  float: 'right',
+  // float: 'right',
   margin: '16px 0px 16px 0px ',
 };
 
@@ -39,7 +39,7 @@ export default class Detail2 extends React.Component {
     return (
       <Paper style={styles}>
         <Subheader style={headerStyle}>Lot Information</Subheader>
-        <Menu desktop={true} width={600}>
+        <Menu desktop={true} className="parcel-detial">
             <MenuItem primaryText="Historical Issues" secondaryText="Landmark Area" />
             <MenuItem primaryText="Environmental Issues" secondaryText="Marine Life" />
             <MenuItem primaryText="Responsible BRA Division" secondaryText="Asset Management" />

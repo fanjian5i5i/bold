@@ -24,24 +24,24 @@ export default class Parcelinfo extends Component {
     
         return (
             <div >
-                <Card >
+                <Card className="parcel-card">
                     <CardTitle title="Parcel" subtitle="Summary" style={styles.header} titleColor={"white"}/>
 
                     <CardText style={styles.back}>
                       <div className="row" style={styles.floatBtn}>
-                        <div className="col-lg-1 col-lg-offset-11 col-md-1 col-md-offset-11 col-sm-1 col-sm-offset-11">
+                        <div className="col-lg-1 col-lg-offset-11 col-md-1 col-md-offset-11 col-xs-1 col-xs-offset-11">
                           <FloatingActionButton backgroundColor={"#BF360C"}>
                             <ContentAdd />
                           </FloatingActionButton>
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col-lg-6 col-md-12 col-sm-12"><Parcedetail/></div>
-                        <div className="col-lg-6 col-md-12 col-sm-12"><Lotinfo/></div>
+                        <div className="col-lg-6 col-md-12 col-xs-12"><Parcedetail/></div>
+                        <div className="col-lg-6 col-md-12 col-xs-12"><Lotinfo/></div>
                       </div>
                       <div className="row">
 
-                          <div className="col-lg-12 col-md-12 col-sm-12"><Leaseinfo/></div>
+                          <div className="col-lg-12 col-md-12 col-xs-12"><Leaseinfo/></div>
                           
                       </div>
                     </CardText>

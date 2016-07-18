@@ -10,6 +10,7 @@ const styles = {
   display: 'inline-block',
   float: 'left',
   margin: '16px 32px 16px 0',
+  overFlow:"auto"
 };
 const headerStyle={
   background:"#f25520",
@@ -22,7 +23,7 @@ const menuStyle = {
 const ParceDetail = () => (
   <Paper style={styles}>
   <Subheader style={headerStyle}>Parcel Information</Subheader>
-    <Menu desktop={true} width={650} style={menuStyle}>
+    <Menu desktop={true} style={menuStyle} className="parcel-detial">
         <MenuItem primaryText="Parcel ID" secondaryText="0203505600" />
         <MenuItem primaryText="Address" secondaryText="EIGHTH ST" />
         <MenuItem primaryText="Zip Code" secondaryText="02129" />

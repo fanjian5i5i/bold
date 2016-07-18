@@ -26,7 +26,7 @@ const style1 = {
   // textAlign: 'center',
   display: 'inline-block',
   padding:8,
-  background:"#EEEEEE"
+  background:"#EEEEEE",
 }
 const style2 = {
   width:"100%",
@@ -51,7 +51,7 @@ const App = () => (
   </MuiThemeProvider>
   <MuiThemeProvider>
     <div className="row">
-      <div className="col-lg-9 col-md-9 col-sm-12"><Paper style={style1} zDepth={1} ><ParcelInfo /></Paper></div>
+      <div className="col-lg-9 col-md-9 col-sm-12"><Paper style={style1} zDepth={1} className="parcel-card"><ParcelInfo /></Paper></div>
       <div className="col-lg-3 col-md-3 col-sm-12">
         <Paper style={style2} zDepth={1} >
           <GridListExampleSimple/>
