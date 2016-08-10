@@ -12,8 +12,7 @@ import GridListExampleSimple from '../components/Imagegrid';
 import SampleMap from '../components/Map';
 import Login from '../components/Login';
 
-import { Router, Route, hashHistory } from 'react-router';
-import Projects from '../components/projects';
+import { Router, Route, hashHistory } from 'react-router'
 // import App from '../components/App'
 const muiTheme = getMuiTheme({
   // palette: {
@@ -25,7 +24,7 @@ const muiTheme = getMuiTheme({
 });
 const style1 = {
   width:"100%",
-  // height:891,
+  height:891,
   marginTop: 8,
   // textAlign: 'center',
   display: 'inline-block',
@@ -55,7 +54,13 @@ const App = () => (
   </MuiThemeProvider>
   <MuiThemeProvider>
     <div className="row">
-      <div className="col-lg-12 col-md-12 col-xs-12"><Paper style={style1} zDepth={1} className="parcel-card"><Projects/></Paper></div>
+      <div className="col-lg-9 col-md-9 col-sm-12"><Paper style={style1} zDepth={1} className="parcel-card"><ParcelInfo /></Paper></div>
+      <div className="col-lg-3 col-md-3 col-sm-12">
+        <Paper style={style2} zDepth={1} >
+          <GridListExampleSimple/>
+          <SampleMap/>
+        </Paper>
+      </div>
     </div>
   </MuiThemeProvider>
   </div>

@@ -11,6 +11,12 @@ import Paper from 'material-ui/Paper';
 import FontIcon from 'material-ui/FontIcon';
 import SearchIcon from 'material-ui/svg-icons/action/search';
 import {grey500} from 'material-ui/styles/colors';
+import GoogleLogin from 'react-google-login';
+import $ from "jquery";
+var auth = require('../server/auth/auth.json');
+import { browserHistory } from 'react-router';
+require("../client/app.css");
+// import Auth from 'json!./../server/auth/auth.json';
 
 injectTapEventPlugin();
 const style = {
@@ -31,13 +37,36 @@ const searchStyle = {
     position: "relative",
     marginTop: 25,
     top: -25,
-    WwebkitBoxFlex: 1,
+    WebkitBoxFlex: 1,
     flex: "1 1 auto",
     order: 2,
     outline: "none",
     border: "none",
     padding: 13,
     borderRadius: 2,
+};
+
+
+const responseGoogle = (response) => {
+  console.log(response);
+  // console.log($.ajax());
+  $.ajax({
+        type: 'GET',
+        url: 'http://localhost:3000/api/login',
+        data: {email:response.getBasicProfile().getEmail()},
+        contentType: "application/json",
+        statusCode: {
+          404: function(){
+            alert("user not found");
+          },
+          200: function(){
+            // alert("success");
+            browserHistory.push('/#/login');
+            // window.location.href("http://boston.gov");
+          }
+        }
+
+    });
 }
 
 const AppBarSearch = () => (
@@ -52,22 +81,29 @@ const AppBarSearch = () => (
     style={{"backgroundColor":"#f25520"}}
     iconElementLeft={<SideBar/>}
     iconElementRight={
-      <IconMenu
-        iconButtonElement={
-          <IconButton><MoreVertIcon /></IconButton>
-        }
-        targetOrigin={{horizontal: 'right', vertical: 'top'}}
-        anchorOrigin={{horizontal: 'right', vertical: 'top'}}
-      >
-        <MenuItem primaryText="Lease Admin" />
-        <MenuItem primaryText="Dashboard" />
-        <MenuItem primaryText="Analytics" />
-        <MenuItem primaryText="Reports" />
-        <MenuItem primaryText="Sign out" />
-      </IconMenu>
+      <GoogleLogin
+          clientId={auth.google.clientid}
+          buttonText={<span className="loginText">login</span>}
+          redirectUri={auth.google.callbackurl}
+          callback={responseGoogle}
+          cssClass="loginBtn"/>
+
+      // <IconMenu
+      //   iconButtonElement={
+      //     <IconButton><MoreVertIcon /></IconButton>
+      //   }
+      //   targetOrigin={{horizontal: 'right', vertical: 'top'}}
+      //   anchorOrigin={{horizontal: 'right', vertical: 'top'}}
+      // >
+      //   <MenuItem primaryText="Lease Admin" />
+      //   <MenuItem primaryText="Dashboard" />
+      //   <MenuItem primaryText="Analytics" />
+      //   <MenuItem primaryText="Reports" />
+      //   <MenuItem primaryText="Sign out" />
+      // </IconMenu>
     }
   >
-    
+
   </AppBar>
 );
 

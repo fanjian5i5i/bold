@@ -1,0 +1,48 @@
+{
+		"projects":[{
+      "projectName":"0 ROXBURY ST",
+      "pid":"0903268010",
+      "street":"ROXBURY ST",
+      "neighborhood":"Roxbury",
+      "urbanrenewalarea":"Campus High School",
+      "sitetype":"Housing Site",
+      "lotsize":"17020"
+		},
+		{
+      "projectName":"1 ROXBURY ST",
+      "pid":"0903268011",
+      "street":"ROXBURY TR",
+      "neighborhood":"Roxbury",
+      "urbanrenewalarea":"Campus High School",
+      "sitetype":"Housing Site",
+      "lotsize":"17020"
+		},
+    {
+      "projectName":"10 ROXBURY ST",
+      "pid":"0903268012",
+      "street":"ROXBURY ST",
+      "neighborhood":"Roxbury",
+      "urbanrenewalarea":"Campus High School",
+      "sitetype":"Housing Site",
+      "lotsize":"17020"
+		},
+    {
+      "projectName":"3 ROXBURY ST",
+      "pid":"0903268013",
+      "street":"ROXBURY ST",
+      "neighborhood":"Roxbury",
+      "urbanrenewalarea":"Campus High School",
+      "sitetype":"Housing Site",
+      "lotsize":"17020"
+		},
+    {
+      "projectName":"4 ROXBURY ST",
+      "pid":"0903268014",
+      "street":"ROXBURY ST",
+      "neighborhood":"Roxbury",
+      "urbanrenewalarea":"Campus High School",
+      "sitetype":"Housing Site",
+      "lotsize":"17020"
+		}
+		]
+}
