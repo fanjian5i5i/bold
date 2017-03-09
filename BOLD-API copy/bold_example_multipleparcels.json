@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 398,
+    "date": "2016-12-02T16:30:14",
+    "date_gmt": "2016-12-02T16:30:14",
+    "guid": {
+      "rendered": "http:\/\/10.241.104.211:8080\/parcels\/0202624000-2\/"
+    },
+    "modified": "2016-12-22T19:35:43",
+    "modified_gmt": "2016-12-22T19:35:43",
+    "slug": "0202624000-2",
+    "status": [
+      
+    ],
+    "type": "parcels",
+    "link": "http:\/\/10.241.104.211:8080\/parcels\/0202624000-2\/",
+    "title": {
+      "rendered": "0202624000"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "currentuses": [
+      
+    ],
+    "preferreduses": [
+      
+    ],
+    "envissues": [
+      
+    ],
+    "histissues": [
+      
+    ],
+    "owners": [
+      94
+    ],
+    "urareas": [
+      87
+    ],
+    "projectmanagers": [
+      
+    ],
+    "neighborhoods": [
+      64
+    ],
+    "responsible_dept": [
+      
+    ],
+    "acf": {
+      "owner": {
+        "term_id": 94,
+        "name": "Boston Redevelopment Authority",
+        "slug": "bra",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "owners",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "pid": "0202624000",
+      "st_name": "MAIN ST",
+      "st_num": "516 R522",
+      "zipcode": "",
+      "site": "",
+      "neighborhood": {
+        "term_id": 64,
+        "name": "Allston",
+        "slug": "allston",
+        "term_group": 0,
+        "term_taxonomy_id": 64,
+        "taxonomy": "neighborhoods",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "assessing_property_type": "903",
+      "lot_size": "3300",
+      "land_value": "226500",
+      "building_value": "93000",
+      "currentuse": "",
+      "preferreduse": "",
+      "notes": "",
+      "ur_area": {
+        "term_id": 87,
+        "name": "Campus High School",
+        "slug": "campus-highschool",
+        "term_group": 0,
+        "term_taxonomy_id": 87,
+        "taxonomy": "urareas",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "ur_number": "",
+      "conveyance_date": "",
+      "conveyed_to": "",
+      "last_observed_date": "",
+      "responsible_dept": "",
+      "responsible_pm": "",
+      "designatedto": "",
+      "titlerundown": true,
+      "taxliens": true,
+      "historical": "",
+      "environmental": "",
+      "gis_lat": "42.3833429315",
+      "gis_lon": "-71.0722325547",
+      "gis_geometry": "",
+      "status": {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "lease_use": "",
+      "lease_lessee": "",
+      "lease_term": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/398"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels"
+        }
+      ],
+      "about": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/types\/parcels"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/users\/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/comments?post=398"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/398\/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/media?parent=398"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "currentuses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/currentuses?post=398"
+        },
+        {
+          "taxonomy": "preferreduses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/preferreduses?post=398"
+        },
+        {
+          "taxonomy": "envissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/envissues?post=398"
+        },
+        {
+          "taxonomy": "histissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/histissues?post=398"
+        },
+        {
+          "taxonomy": "owners",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/owners?post=398"
+        },
+        {
+          "taxonomy": "urareas",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/urareas?post=398"
+        },
+        {
+          "taxonomy": "projectmanagers",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/projectmanagers?post=398"
+        },
+        {
+          "taxonomy": "neighborhoods",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/neighborhoods?post=398"
+        },
+        {
+          "taxonomy": "responsible_dept",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/responsible_dept?post=398"
+        },
+        {
+          "taxonomy": "status",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/status?post=398"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "date": "2016-08-18T20:18:50",
+    "date_gmt": "2016-08-18T20:18:50",
+    "guid": {
+      "rendered": "http:\/\/10.241.104.211:8080\/?post_type=parcels&#038;p=48"
+    },
+    "modified": "2016-12-22T19:35:48",
+    "modified_gmt": "2016-12-22T19:35:48",
+    "slug": "0202620200",
+    "status": [
+      
+    ],
+    "type": "parcels",
+    "link": "http:\/\/10.241.104.211:8080\/parcels\/0202620200\/",
+    "title": {
+      "rendered": "0202620200"
+    },
+    "content": {
+      "rendered": "<div id=\"attachment_197\" style=\"width: 310px\" class=\"wp-caption alignnone\"><img class=\"size-medium wp-image-197\" src=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/10\/2-300x224.jpg\" alt=\"an image of something awesome\" width=\"300\" height=\"224\" srcset=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/10\/2-300x224.jpg 300w, http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/10\/2.jpg 570w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><p class=\"wp-caption-text\">This is the caption text<\/p><\/div>\n<div id=\"attachment_67\" style=\"width: 310px\" class=\"wp-caption alignnone\"><img class=\"size-medium wp-image-67\" src=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2-1-300x224.jpg\" alt=\"an image of something awesome\" width=\"300\" height=\"224\" srcset=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2-1-300x224.jpg 300w, http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2-1.jpg 570w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><p class=\"wp-caption-text\">This is the caption text<\/p><\/div>\n<div id=\"attachment_66\" style=\"width: 310px\" class=\"wp-caption alignnone\"><img class=\"size-medium wp-image-66\" src=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2-300x224.jpg\" alt=\"an image of something awesome\" width=\"300\" height=\"224\" srcset=\"http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2-300x224.jpg 300w, http:\/\/10.241.104.211:8080\/wp-content\/uploads\/2016\/08\/2.jpg 570w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><p class=\"wp-caption-text\">This is the caption text<\/p><\/div>\n",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "currentuses": [
+      144,
+      139,
+      113,
+      142
+    ],
+    "preferreduses": [
+      102,
+      103,
+      137
+    ],
+    "envissues": [
+      
+    ],
+    "histissues": [
+      
+    ],
+    "owners": [
+      94
+    ],
+    "urareas": [
+      86
+    ],
+    "projectmanagers": [
+      
+    ],
+    "neighborhoods": [
+      49
+    ],
+    "responsible_dept": [
+      133
+    ],
+    "acf": {
+      "pid": "0202620200",
+      "site": "1",
+      "st_num": "472",
+      "st_name": "115",
+      "zipcode": "12345",
+      "neighborhood": {
+        "term_id": 49,
+        "name": "North End",
+        "slug": "northend",
+        "term_group": 0,
+        "term_taxonomy_id": 49,
+        "taxonomy": "neighborhoods",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "owner": {
+        "term_id": 94,
+        "name": "Boston Redevelopment Authority",
+        "slug": "bra",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "owners",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "assessing_property_type": "986",
+      "lot_size": "1855",
+      "land_value": "18600",
+      "building_value": "0",
+      "notes": "Sidewalk along street. Should go to PIC to convey to the City.&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;&lt;br \/&gt;<br \/>\r\n",
+      "ur_area": {
+        "term_id": 86,
+        "name": "Central Business District",
+        "slug": "central-business-district",
+        "term_group": 0,
+        "term_taxonomy_id": 86,
+        "taxonomy": "urareas",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "ur_number": "3",
+      "_empty_": false,
+      "currentuse": [
+        {
+          "term_id": 144,
+          "name": "Community Garden",
+          "slug": "community-garden",
+          "term_group": 0,
+          "term_taxonomy_id": 144,
+          "taxonomy": "currentuses",
+          "description": "",
+          "parent": 0,
+          "count": 2,
+          "filter": "raw",
+          "term_order": "0"
+        },
+        {
+          "term_id": 139,
+          "name": "Designated",
+          "slug": "designated",
+          "term_group": 0,
+          "term_taxonomy_id": 139,
+          "taxonomy": "currentuses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        },
+        {
+          "term_id": 113,
+          "name": "Industrial",
+          "slug": "industrial",
+          "term_group": 0,
+          "term_taxonomy_id": 113,
+          "taxonomy": "currentuses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        },
+        {
+          "term_id": 142,
+          "name": "Non Housing Site",
+          "slug": "non-housing-site",
+          "term_group": 0,
+          "term_taxonomy_id": 142,
+          "taxonomy": "currentuses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        }
+      ],
+      "conveyance_date": "",
+      "conveyed_to": "",
+      "last_observed_date": "20130916",
+      "responsible_dept": [
+        {
+          "term_id": 133,
+          "name": "Industrial Leasing",
+          "slug": "industrial-leasing",
+          "term_group": 0,
+          "term_taxonomy_id": 133,
+          "taxonomy": "responsible_dept",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        }
+      ],
+      "responsible_pm": "",
+      "lease_lessee": "",
+      "lease_term": "",
+      "lease_use": "",
+      "designatedto": "Whomever",
+      "titlerundown": true,
+      "taxliens": true,
+      "gis_lat": "42.381807",
+      "gis_lon": "-71.071489",
+      "gis_geometry": "POLYGON ((-7911664.2465684991 5218392.5118373483, -7911662.4689881 5218387.7683115378, -7911659.9174994789 5218380.9298642725, -7911657.358782338 5218374.5776292905, -7911654.3439252023 5218367.0242676884, -7911651.625611797 5218360.2850885168, -7911648.4291574135 5218352.8632593527, -7911644.5696560461 5218344.1801376194, -7911640.6208436154 5218335.9773093686, -7911637.5902569965 5218329.8539834172, -7911633.8734739721 5218322.5428782552, -7911630.4358994868 5218316.0633849129, -7911626.9469969273 5218309.5663796738, -7911623.6820784286 5218303.5017511249, -7911619.7182345465 5218296.5909093395, -7911612.8211511541 5218285.4822089523, -7911618.229166694 5218297.2937554419, -7911633.9529017005 5218331.92861037, -7911661.8278957028 5218393.3218602836, -7911664.2465684991 5218392.5118373483))",
+      "preferreduse": [
+        {
+          "term_id": 102,
+          "name": "City of Boston Park",
+          "slug": "cobpark",
+          "term_group": 0,
+          "term_taxonomy_id": 102,
+          "taxonomy": "preferreduses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        },
+        {
+          "term_id": 103,
+          "name": "Community Garden",
+          "slug": "community-garden",
+          "term_group": 0,
+          "term_taxonomy_id": 103,
+          "taxonomy": "preferreduses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        },
+        {
+          "term_id": 137,
+          "name": "Conveyed",
+          "slug": "conveyed",
+          "term_group": 0,
+          "term_taxonomy_id": 137,
+          "taxonomy": "preferreduses",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        }
+      ],
+      "historical": "",
+      "environmental": "",
+      "status": {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw",
+        "term_order": "0"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/48"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels"
+        }
+      ],
+      "about": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/types\/parcels"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/users\/3"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/comments?post=48"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/48\/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/media?parent=48"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "currentuses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/currentuses?post=48"
+        },
+        {
+          "taxonomy": "preferreduses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/preferreduses?post=48"
+        },
+        {
+          "taxonomy": "envissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/envissues?post=48"
+        },
+        {
+          "taxonomy": "histissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/histissues?post=48"
+        },
+        {
+          "taxonomy": "owners",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/owners?post=48"
+        },
+        {
+          "taxonomy": "urareas",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/urareas?post=48"
+        },
+        {
+          "taxonomy": "projectmanagers",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/projectmanagers?post=48"
+        },
+        {
+          "taxonomy": "neighborhoods",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/neighborhoods?post=48"
+        },
+        {
+          "taxonomy": "responsible_dept",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/responsible_dept?post=48"
+        },
+        {
+          "taxonomy": "status",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/status?post=48"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "date": "2016-08-18T20:15:49",
+    "date_gmt": "2016-08-18T20:15:49",
+    "guid": {
+      "rendered": "http:\/\/10.241.104.211:8080\/?post_type=parcels&#038;p=46"
+    },
+    "modified": "2016-12-22T19:36:04",
+    "modified_gmt": "2016-12-22T19:36:04",
+    "slug": "0202164100",
+    "status": [
+      
+    ],
+    "type": "parcels",
+    "link": "http:\/\/10.241.104.211:8080\/parcels\/0202164100\/",
+    "title": {
+      "rendered": "0202164100"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "currentuses": [
+      
+    ],
+    "preferreduses": [
+      
+    ],
+    "envissues": [
+      
+    ],
+    "histissues": [
+      
+    ],
+    "owners": [
+      94
+    ],
+    "urareas": [
+      84
+    ],
+    "projectmanagers": [
+      
+    ],
+    "neighborhoods": [
+      48
+    ],
+    "responsible_dept": [
+      122
+    ],
+    "acf": {
+      "pid": "0202164100",
+      "site": "1",
+      "st_num": "10",
+      "st_name": "181",
+      "zipcode": "120",
+      "neighborhood": {
+        "term_id": 48,
+        "name": "Back Bay",
+        "slug": "backbay",
+        "term_group": 0,
+        "term_taxonomy_id": 48,
+        "taxonomy": "neighborhoods",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "owner": {
+        "term_id": 94,
+        "name": "Boston Redevelopment Authority",
+        "slug": "bra",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "owners",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "assessing_property_type": "908",
+      "lot_size": "40932",
+      "land_value": "420000",
+      "building_value": "0",
+      "notes": "Conveyed",
+      "ur_area": {
+        "term_id": 84,
+        "name": "Downtown Waterfront\/Faneuil Hall",
+        "slug": "downtown-waterfront",
+        "term_group": 0,
+        "term_taxonomy_id": 84,
+        "taxonomy": "urareas",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "ur_number": "P-15",
+      "_empty_": false,
+      "currentuse": "",
+      "conveyance_date": "11\/18\/2016",
+      "conveyed_to": "Whomever",
+      "last_observed_date": "08\/18\/2016",
+      "responsible_dept": [
+        {
+          "term_id": 122,
+          "name": "Asset Management",
+          "slug": "asset-management",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "responsible_dept",
+          "description": "",
+          "parent": 0,
+          "count": 1,
+          "filter": "raw",
+          "term_order": "0"
+        }
+      ],
+      "responsible_pm": "",
+      "lease_lessee": "",
+      "lease_term": "",
+      "lease_use": "",
+      "designatedto": "Whomever",
+      "titlerundown": false,
+      "taxliens": false,
+      "gis_lat": "42.378869",
+      "gis_lon": "-71.071383",
+      "gis_geometry": "POLYGON ((-7911575.4161942955 5217911.9134507924, -7911600.0604015458 5217967.7852377445, -7911691.0717556477 5217884.6355471164, -7911652.4972893912 5217841.5628280416, -7911575.4161942955 5217911.9134507924))",
+      "preferreduse": "",
+      "historical": "",
+      "environmental": "",
+      "status": {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw",
+        "term_order": "0"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/46"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels"
+        }
+      ],
+      "about": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/types\/parcels"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/users\/3"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/comments?post=46"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/46\/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/media?parent=46"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "currentuses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/currentuses?post=46"
+        },
+        {
+          "taxonomy": "preferreduses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/preferreduses?post=46"
+        },
+        {
+          "taxonomy": "envissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/envissues?post=46"
+        },
+        {
+          "taxonomy": "histissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/histissues?post=46"
+        },
+        {
+          "taxonomy": "owners",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/owners?post=46"
+        },
+        {
+          "taxonomy": "urareas",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/urareas?post=46"
+        },
+        {
+          "taxonomy": "projectmanagers",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/projectmanagers?post=46"
+        },
+        {
+          "taxonomy": "neighborhoods",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/neighborhoods?post=46"
+        },
+        {
+          "taxonomy": "responsible_dept",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/responsible_dept?post=46"
+        },
+        {
+          "taxonomy": "status",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/status?post=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "date": "2016-08-18T20:11:04",
+    "date_gmt": "2016-08-18T20:11:04",
+    "guid": {
+      "rendered": "http:\/\/10.241.104.211:8080\/?post_type=parcels&#038;p=40"
+    },
+    "modified": "2016-12-22T19:36:08",
+    "modified_gmt": "2016-12-22T19:36:08",
+    "slug": "0202624000",
+    "status": [
+      149
+    ],
+    "type": "parcels",
+    "link": "http:\/\/10.241.104.211:8080\/parcels\/0202624000\/",
+    "title": {
+      "rendered": "0202624000"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "currentuses": [
+      
+    ],
+    "preferreduses": [
+      
+    ],
+    "envissues": [
+      
+    ],
+    "histissues": [
+      
+    ],
+    "owners": [
+      94
+    ],
+    "urareas": [
+      
+    ],
+    "projectmanagers": [
+      
+    ],
+    "neighborhoods": [
+      64
+    ],
+    "responsible_dept": [
+      
+    ],
+    "acf": {
+      "pid": "0202624000",
+      "site": "C-2A-4",
+      "st_num": "1232",
+      "st_name": "115",
+      "zipcode": "121",
+      "neighborhood": {
+        "term_id": 64,
+        "name": "Allston",
+        "slug": "allston",
+        "term_group": 0,
+        "term_taxonomy_id": 64,
+        "taxonomy": "neighborhoods",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "owner": {
+        "term_id": 94,
+        "name": "Boston Redevelopment Authority",
+        "slug": "bra",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "owners",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "assessing_property_type": "986",
+      "lot_size": "5245",
+      "land_value": "94400",
+      "building_value": "0",
+      "notes": "Sullivan Square area. Vacant parcel, temporary CAT\/EMS. Review of status with EMS and obligation on part of BRA regarding length of commitment post CA\/T CANA completion. Suggest putting out RFP for redevelopment or at least an RFI.&amp;amp;amp;lt;br \/&amp;amp;amp;gt;&amp;amp;lt;br \/&amp;amp;gt;&amp;lt;br \/&amp;gt;&lt;br \/&gt;<br \/>\r\n",
+      "ur_area": "",
+      "ur_number": "C-2A-4",
+      "_empty_": false,
+      "currentuse": "",
+      "conveyance_date": "",
+      "conveyed_to": "",
+      "last_observed_date": "20150916",
+      "responsible_dept": "",
+      "responsible_pm": "",
+      "lease_lessee": "",
+      "lease_term": "",
+      "lease_use": "",
+      "designatedto": "",
+      "titlerundown": true,
+      "taxliens": true,
+      "gis_lat": "42.383343",
+      "gis_lon": "-71.072233",
+      "gis_geometry": "POLYGON ((-7911751.8542052042 5218560.2004814148, -7911706.1775392145 5218573.34098991, -7911710.9803380053 5218585.26545012, -7911717.0089937616 5218595.3014646247, -7911751.8542052042 5218560.2004814148))",
+      "preferreduse": "",
+      "historical": "",
+      "environmental": "",
+      "status": {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw",
+        "term_order": "0"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/40"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels"
+        }
+      ],
+      "about": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/types\/parcels"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/users\/3"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/comments?post=40"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/40\/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/media?parent=40"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "currentuses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/currentuses?post=40"
+        },
+        {
+          "taxonomy": "preferreduses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/preferreduses?post=40"
+        },
+        {
+          "taxonomy": "envissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/envissues?post=40"
+        },
+        {
+          "taxonomy": "histissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/histissues?post=40"
+        },
+        {
+          "taxonomy": "owners",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/owners?post=40"
+        },
+        {
+          "taxonomy": "urareas",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/urareas?post=40"
+        },
+        {
+          "taxonomy": "projectmanagers",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/projectmanagers?post=40"
+        },
+        {
+          "taxonomy": "neighborhoods",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/neighborhoods?post=40"
+        },
+        {
+          "taxonomy": "responsible_dept",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/responsible_dept?post=40"
+        },
+        {
+          "taxonomy": "status",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/status?post=40"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "date": "2016-08-18T15:00:23",
+    "date_gmt": "2016-08-18T15:00:23",
+    "guid": {
+      "rendered": "http:\/\/10.241.104.211:8080\/?post_type=parcels&#038;p=30"
+    },
+    "modified": "2016-12-22T19:36:12",
+    "modified_gmt": "2016-12-22T19:36:12",
+    "slug": "0202625000",
+    "status": [
+      
+    ],
+    "type": "parcels",
+    "link": "http:\/\/10.241.104.211:8080\/parcels\/0202625000\/",
+    "title": {
+      "rendered": "0202625000"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "currentuses": [
+      144
+    ],
+    "preferreduses": [
+      
+    ],
+    "envissues": [
+      
+    ],
+    "histissues": [
+      
+    ],
+    "owners": [
+      94
+    ],
+    "urareas": [
+      
+    ],
+    "projectmanagers": [
+      
+    ],
+    "neighborhoods": [
+      64
+    ],
+    "responsible_dept": [
+      
+    ],
+    "acf": {
+      "pid": "202624000",
+      "site": "",
+      "st_num": "10",
+      "st_name": "",
+      "zipcode": "116",
+      "neighborhood": {
+        "term_id": 64,
+        "name": "Allston",
+        "slug": "allston",
+        "term_group": 0,
+        "term_taxonomy_id": 64,
+        "taxonomy": "neighborhoods",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "owner": {
+        "term_id": 94,
+        "name": "Boston Redevelopment Authority",
+        "slug": "bra",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "owners",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw",
+        "term_order": "0"
+      },
+      "assessing_property_type": "",
+      "lot_size": "",
+      "land_value": "",
+      "building_value": "",
+      "notes": "",
+      "ur_area": "",
+      "ur_number": "",
+      "_empty_": false,
+      "currentuse": [
+        {
+          "term_id": 144,
+          "name": "Community Garden",
+          "slug": "community-garden",
+          "term_group": 0,
+          "term_taxonomy_id": 144,
+          "taxonomy": "currentuses",
+          "description": "",
+          "parent": 0,
+          "count": 2,
+          "filter": "raw",
+          "term_order": "0"
+        }
+      ],
+      "conveyance_date": "",
+      "conveyed_to": "",
+      "last_observed_date": "",
+      "responsible_dept": "",
+      "responsible_pm": "",
+      "lease_lessee": "",
+      "lease_term": "",
+      "lease_use": "",
+      "designatedto": "",
+      "titlerundown": false,
+      "taxliens": false,
+      "gis_lat": "",
+      "gis_lon": "",
+      "gis_geometry": "",
+      "preferreduse": "",
+      "historical": "",
+      "environmental": "",
+      "status": {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw",
+        "term_order": "0"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/30"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels"
+        }
+      ],
+      "about": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/types\/parcels"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/users\/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/comments?post=30"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/parcels\/30\/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/media?parent=30"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "currentuses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/currentuses?post=30"
+        },
+        {
+          "taxonomy": "preferreduses",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/preferreduses?post=30"
+        },
+        {
+          "taxonomy": "envissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/envissues?post=30"
+        },
+        {
+          "taxonomy": "histissues",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/histissues?post=30"
+        },
+        {
+          "taxonomy": "owners",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/owners?post=30"
+        },
+        {
+          "taxonomy": "urareas",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/urareas?post=30"
+        },
+        {
+          "taxonomy": "projectmanagers",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/projectmanagers?post=30"
+        },
+        {
+          "taxonomy": "neighborhoods",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/neighborhoods?post=30"
+        },
+        {
+          "taxonomy": "responsible_dept",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/responsible_dept?post=30"
+        },
+        {
+          "taxonomy": "status",
+          "embeddable": true,
+          "href": "http:\/\/10.241.104.211:8080\/wp-json\/wp\/v2\/status?post=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

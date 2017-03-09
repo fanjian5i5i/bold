@@ -1,0 +1,88 @@
+{
+    "groups":{
+      "group1":"Assessing and Zoning",
+      "group2":"Property Details",
+      "group3":"Property Management"
+    },
+		"fieldNames":{
+      "group1":{
+        "pid":"Parcel ID",
+        "st_num":"Street Number",
+        "st_name":"Street Name",
+        "zipcode":"Zip Code",
+        "neighborhood":"Neighborhood",
+        "owner":"Owner",
+        "assessing_property_type":"Assessing Property Type"
+
+
+      },
+      "group2":{
+        "site":"Site Name",
+        "lot_size":"Lot Size",
+        "land_value":"Land Value",
+        "building_value":"Building Value",
+
+        "ur_area":"Urban Renewal Area",
+        "ur_number":"Urban Renewal Number",
+
+        "currentuse":"Current Use",
+        "preferreduse":"Preferred Use",
+        "lease_lessee":"Lease Leasee",
+        "lease_term":"Lease Term",
+        "lease_use":"Lease Use"
+
+
+      },
+      "group3":{
+        "projectstatus":"Status",
+        "designatedto":"Designated To",
+        "titlerundown":"Title Run Down",
+        "taxliens":"Tax Liens",
+        "conveyance_date":"Conveyance Date",
+        "conveyed_to":"Conveyed To",
+        "last_observed_date":"Last Observed Date",
+        "responsible_dept":"Responsible Department",
+        "responsible_pm":"Responsible Project Manager",
+        "historical":"Historical Issues",
+        "environmental":"Environmental Issues",
+        "notes":"Notes"
+
+      }
+
+
+		},
+    "fieldIsObject":{
+      "pid":false,
+      "site":false,
+      "st_num":false,
+      "st_name":false,
+      "zipcode":true,
+      "neighborhood":true,
+      "owner":true,
+      "assessing_property_type":false,
+      "lot_size":false,
+      "land_value":false,
+      "building_value":false,
+      "notes":false,
+      "ur_area":false,
+      "ur_number":false,
+      "zoning":false,
+      "currentuse":true,
+      "conveyance_date":false,
+      "conveyed_to":false,
+      "last_observed_date":false,
+      "responsible_dept":true,
+      "responsible_pm":true,
+      "lease_lessee":false,
+      "lease_term":false,
+      "lease_use":false,
+      "designatedto":false,
+      "titlerundown":false,
+      "taxliens":false,
+      "gis_lat":false,
+      "gis_lon":false,
+      "gis_geometry":false,
+      "preferreduse":true,
+      "status":true
+		}
+}
